@@ -26,7 +26,7 @@ jobs:
     steps:
       # Check out the repo under $GITHUB_WORKSPACE so that job can access it
       - name: Check out the repo
-      - uses: action/checkout@v2
+        uses: action/checkout@v2
 
       # Runs a single echo command using the runners shell
       - run: echo Entering Django CI/CD Pipleline!
